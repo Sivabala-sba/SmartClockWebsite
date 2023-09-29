@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dynamic Dashboard</title>
+</head>
+<body>
+    <div id="fullscreen-container">
+        <div class="background"></div>
+        <div class="background"></div>
+        <div class="content">
+            <div class="clock">
+                <div id="time" class="big-font"></div>
+                <div id="date"></div>
+                <div id="day"></div>
+            </div>
+            <!--<div id="weather" class="info-box">
+                <h2>Weather Forecast</h2>
+                <div id="weather-info">
+                    <p>Loading...</p>
+                </div>
+            </div>-->
+            <div id="weather" class="info-box">
+                <h2>Weather Forecast</h2>
+                <div id="weather-grid" class="grid">
+                    <div class="grid-item">
+                        <h3>Temperature</h3>
+                        <p id="temperature">Loading...</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3>Description</h3>
+                        <p id="description">Loading...</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3>Pressure</h3>
+                        <p id="pressure">Loading...</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3>Humidity</h3>
+                        <p id="humidity">Loading...</p>
+                    </div>
+                </div>
+            </div>
+            <div id="quote" class="info-box">
+                <h2>Quote of the Day</h2>
+                <div id="quote-text">
+                    <p>Loading...</p>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
